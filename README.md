@@ -10,7 +10,7 @@
 리그오브레전드(롤) 소환사명(계정명)을 입력한다.  
   
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/98649953/210135552-b1dddb82-25a9-4544-89b5-90f6dcacc09c.png">.   
-아래와 같이 결과물이 나온다.    
+위와 같이 결과물이 나온다.    
     
 #           
 ## ⚒️개발 과정⚒️
