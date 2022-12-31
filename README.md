@@ -11,6 +11,7 @@
   
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/98649953/210135552-b1dddb82-25a9-4544-89b5-90f6dcacc09c.png">.   
 위와 같이 결과물이 나온다.    
+존재하지 않는 소환사명의 경우 에러 페이지가 나옵니다.
     
 #           
 ## ⚒️개발 과정⚒️
