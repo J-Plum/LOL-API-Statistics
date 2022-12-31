@@ -21,13 +21,9 @@
 https://developer.riotgames.com/.   
 위의 사이트에서 사이트 개발에 필요한 API를 신청했습니다.  
   
-<img width="1152" alt="image" src="https://user-images.githubusercontent.com/98649953/210135826-2b674b02-7138-42d5-8b88-74abf11a3c65.png">  
-그리고 제가 필요로 하는 API를 PostMan에 정리를 했습니다.
-
-
-  
-  
-  
+<img width="1152" alt="image" src="https://user-images.githubusercontent.com/98649953/210135826-2b674b02-7138-42d5-8b88-74abf11a3c65.png">
+그리고 제가 필요로 하는 API를 PostMan에 정리를 했습니다.  .  
+.  
 <img width="225" alt="image" src="https://user-images.githubusercontent.com/98649953/210136019-214a0704-6258-491a-9be7-37ebab47d542.png">  
   
 저는 이번 프로젝트를 React와 PostCSS를이용해서 개발 했습니다.  
