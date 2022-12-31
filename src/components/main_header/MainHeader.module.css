@@ -1,0 +1,65 @@
+:root {
+   /* Color */
+   --color-main: #9dc3e6;
+   --color-light-main: #bdd7ee;
+   --color-dark-main: #4472c4;
+   --color-dark-icon: #284e83;
+   --color-dark-border: #a4b8ff;
+   --color-white: #ffffff;
+   --color-light-white: #d8d8d8;
+   --color-dark-white: #bdbdbd;
+   --color-icon: #bfbfbf;
+}
+
+.header {
+   width: 100%;
+   height: 6.5%;
+   display: flex;
+   background: var(--color-main);
+   color: white;
+   border-bottom: 2px solid var(--color-dark-border);
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.img {
+   width: 3.5rem;
+   padding: 2px;
+}
+
+.title {
+   margin: 0 1rem 0 1rem;
+}
+
+.input {
+   /* 가능한만큼 채우게 */
+
+   font-size: 1.5rem;
+   outline: 0;
+}
+
+.button {
+   position: absolute;
+   right: 1rem;
+   width: 5rem;
+   height: 3rem;
+   border: none;
+   border-radius: 0.5em;
+   color: var(--color-white);
+   background-color: var(--color-dark-main);
+   outline: 0;
+   /* transform: translateY(25%); */
+}
+
+.button:hover {
+   background-color: var(--color-dark-icon);
+}
+
+.buttonImg {
+   height: 100%;
+   padding: 0.5em 0.2em;
+}

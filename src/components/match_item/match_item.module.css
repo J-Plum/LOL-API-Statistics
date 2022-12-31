@@ -1,0 +1,419 @@
+:root {
+   /* Color */
+   --color-main: #9dc3e6;
+   --color-light-main: #bdd7ee;
+   --color-dark-main: #4472c4;
+   --color-dark-icon: #284e83;
+   --color-dark-border: #a4b8ff;
+   --color-win : #5383E8;
+   --color-lose : #E84057;
+   --color-redo : #758592;
+   --color-win-none : #B3CDFF;
+   --color-lose-none : #FFBAC3;
+   --color-redo-none : #57646F;
+   --color-background-win : #ECF2FF;
+   --color-background-lose : #FFF1F3;
+   --color-background-redo : #F7F7F9;
+   --color-light-red : #FFF1F3;
+   --color-white: #ffffff;
+   --color-light-white: #d8d8d8;
+   --color-dark-white: #bdbdbd;
+   --color-icon: #bfbfbf;
+   --color-font-light-Gray: #758592;
+
+   --color-bar-win: #D5E3FF;
+   --color-bar-lose: #FFD8D9;
+   --color-bar-redo: #ebeef1;
+
+   --color-font-Gray: #202D37;
+   --color-font-Red: #D31A45;
+
+   --font-roboto : "roboto";
+   --font-NotoSansKR-Regular : "NotoSansKR-Regular";
+}
+
+@font-face {
+	font-family: "roboto";
+	src: url("../../../public/fonts/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+   font-family: "NotoSansKR-Regular";
+   src: url("../../../public/fonts/NotoSansKR/NotoSansKR-Regular.otf");
+}
+
+
+.container{
+   display: flex;
+   flex-direction: row;
+   margin: 0.2rem;
+   margin-left: 5px;
+   margin-bottom: 0.5rem;
+   padding: 0.5rem 0.7rem;
+   border-radius: 4px;
+   border-left-width: 7px;
+   border-left-style: solid;
+   border-color: var(--color-test);
+}
+
+.container.win {
+   background-color: var(--color-background-win);
+   border-color: var(--color-win);
+}
+
+.container.lose {
+   background-color: var(--color-background-lose);
+   border-color: var(--color-lose);
+}
+
+.container.redo{
+   background-color: var(--color-background-redo);
+   border-color: var(--color-redo);
+}
+
+
+
+.game{
+   position: relative;
+   width: 100px;
+   min-width: 66.5px;
+   height: 75px;
+   margin : 10px 10px 0 2px
+}
+
+.gameType{
+   font-size: 12px;
+   font-family: var(--font-NotoSansKR-Regular);
+   margin-bottom: 4px;
+}
+.container.win .gameType{
+   color: var(--color-win);
+   font-weight: bold;
+}
+.container.lose .gameType{
+   color: var(--color-lose);
+   font-weight: bold;
+}
+.container.redo .gameType{
+   color: var(--color-redo);
+   font-weight: bold;
+}
+
+.endGameStamp{
+   font-size: 12px;
+   color: var(--color-font-light-Gray);
+   font-family: var(--font-NotoSansKR);
+}
+
+.bar{
+   width: 48px;
+   height: 1px;
+   margin: 8px 0px 4px;
+}
+
+.container.win .bar{
+   background-color: var(--color-bar-win);
+}
+.container.lose .bar{
+   background-color: var(--color-bar-lose);
+}
+.container.win .bar{
+   background-color: var(--color-bar-redo);
+}
+
+
+.gameResult{
+   color: var(--color-font-light-Gray);
+   font-size: 12px;
+   font-weight: bold;
+   margin-bottom: 4px;
+}
+
+.playPlayTime{
+   color: var(--color-font-light-Gray);
+   font-size: 12px;
+}
+
+
+.info{
+   display: flex;
+   flex-direction: column;
+}
+
+.infoDetail{
+   display: flex;
+   flex-direction: row;
+   height: 60px;
+}
+
+
+
+
+
+
+
+
+
+.championImg{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+.spell{
+   display: flex;
+   flex-direction: column;
+}
+
+.rune{
+   display: flex;
+   flex-direction: column;
+}
+
+.gameStats{
+   position: relative;
+   display: flex;
+   width: 130px;
+   padding: 0.5rem;
+   margin-left: 2px;
+   flex-direction: column;
+   justify-content: center;
+   color: var(--color-font-Gray);
+   font-family: var(--font-roboto),sans-serif;
+}
+
+.gameStats::after{
+   content: "";
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 1px;
+   height: 62px;
+   margin: 0 8px 0 20px;
+}
+
+.container.win .gameStats::after{
+   background-color : var(--color-bar-win);
+}
+.container.lose .gameStats::after{
+   background-color : var(--color-bar-lose);
+}
+.container.redo .gameStats::after{
+   background-color : var(--color-bar-redo);
+}
+
+.kda{
+   width: 120px;
+   line-height: 20px;
+   color: var(--color-font-light-Gray);
+   font-family: "Malgun Gothic", Dotum, Roboto, "sans-serif";
+   font-size: 12px;
+}
+
+.kda::after{
+   content: "평점";
+   font-family: "Malgun Gothic", Dotum, Roboto, "sans-serif";
+   margin-left: 2px;
+   font-size: 12px;
+}
+
+.kills::after{
+   content: "/";
+   margin: 0 0.3rem;
+}
+
+.deaths{
+   color: var(--color-font-Red);
+}
+.assists::before{
+   content: "/";
+   margin: 0 0.3rem;
+}
+
+.otherInfo{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   font-family: var(--font-NotoSansKR-Regular);
+   font-size: 12px;
+   color: var(--color-font-light-Gray);
+   top: 6px;
+   margin-left: 2px;
+}
+
+.otherInfo > div{
+   width: 160px;
+}
+
+.otherInfo > .multiKill{
+   width: 60px;
+   top: 18px;
+
+}
+
+.multiKill{
+   display: inline-block;
+   width: 60px;
+   position: relative;
+}
+
+.multiKillItem{
+   padding: 0px 8px;
+   justify-content: center;
+   text-align: center;
+   line-height: 18px;
+   width: auto;
+   height: 18px;
+   border-radius: 15px;
+   font-size: 11.5px;
+   color: white;
+   background-color: rgb(232, 64, 87);
+   font-family: var(--font-NotoSansKR-Regular);
+}
+
+.persentKill{
+   color: var(--color-font-Red);
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+
+.ward{
+   margin-bottom: 5px;
+}
+
+.cs{
+   font-size: 10.5px;
+}
+.averageTier{
+   font-weight: bold;
+}
+
+
+
+
+.item{
+   width: 255px;
+   margin-top: 0.3rem;
+   height: 24px;
+}
+
+
+
+.itemNone{
+   display: inline-block;
+   margin: 0;
+   width: 24px;
+   height: 24px;
+   margin: 1px;
+   border-radius: 5px;
+}
+
+.container.win .itemNone{
+   background-color: var(--color-win-none);
+}
+
+.container.lose .itemNone{
+   background-color: var(--color-lose-none);
+}
+
+.container.redo .itemNone{
+   background-color: var(--color-redo-none);
+}
+
+.runeImg{
+   width: 24px;
+   height: 24px;
+   background-color: black;
+   border-radius: 50%;
+}
+
+.spellImg,
+.runeImg,
+.runeImg2,
+.itemImg{
+   width: 24px;
+   height: 24px;
+   margin: 1px;
+}
+.spellImg,
+.itemImg{
+   border-radius: 5px;
+}
+
+
+
+.trinket{
+   width: 24px;
+   height: 24px;
+   margin: 1px;
+   border-radius: 50%;
+}
+
+.trinket.itemNone{
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+}
+
+
+
+
+.summonerList{
+   display: flex;
+   flex-direction: row;
+}
+
+.summonerItem{
+   display: flex;
+   align-items: center;
+   width: 88px;
+   height: 18px;
+   text-align: left;
+   white-space: nowrap;
+}
+
+.listImg{
+   width: 16px;
+   height: 16px;
+   border-radius: 4px;
+}
+
+.listSummonerName{
+   max-width: 60px;
+   font-size: 12px;
+   text-decoration: none;
+   color: var(--color-font-light-Gray);
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.listSummonerName:visited{
+   color: var(--color-font-light-Gray);
+}
+
+.button{
+   border: 0;
+   max-width: 60px;
+   font-size: 12px;
+   text-decoration: none;
+   color: var(--color-font-light-Gray);
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   cursor: pointer;
+}
+
+.container.win .button{
+   background-color: var(--color-background-win);
+}
+.container.lose .button{
+   background-color: var(--color-background-lose);
+}
+.container.redo .button{
+   background-color: var(--color-background-redo);
+}
+
+.button:visited{
+   color: var(--color-font-light-Gray);
+}

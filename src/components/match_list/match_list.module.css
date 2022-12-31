@@ -1,0 +1,61 @@
+:root {
+   /* Color */
+   --color-main: #9dc3e6;
+   --color-light-main: #bdd7ee;
+   --color-dark-main: #4472c4;
+   --color-dark-icon: #284e83;
+   --color-dark-border: #a4b8ff;
+   --color-win : #5383E8;
+   --color-lose : #E84057;
+   --color-redo : #758592;
+   --color-win-none : #B3CDFF;
+   --color-lose-none : #FFBAC3;
+   --color-redo-none : #57646F;
+   --color-background-win : #ECF2FF;
+   --color-background-lose : #FFF1F3;
+   --color-background-redo : #F7F7F9;
+   --color-light-red : #FFF1F3;
+   --color-white: #ffffff;
+   --color-light-white: #d8d8d8;
+   --color-dark-white: #bdbdbd;
+   --color-icon: #bfbfbf;
+   --color-font-light-Gray: #758592;
+
+   --color-bar-win: #D5E3FF;
+   --color-bar-lose: #FFD8D9;
+   --color-bar-redo: #ebeef1;
+
+   --color-font-Gray: #202D37;
+   --color-font-Red: #D31A45;
+}
+
+.container{
+   width: 800px;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+}
+
+ul{
+   margin: auto;
+}
+
+.list{
+   height: 100%;
+   margin: 0;
+}
+
+.button{
+   width: 100%;
+   min-width: 820px;
+   height: 40px;
+   border: 1px solid #DBE0E4;
+   border-radius: 10px;
+   outline: 0;
+   background-color: white;
+   margin-bottom: 10px;
+}
+
+.button:hover{
+   cursor: pointer;
+}

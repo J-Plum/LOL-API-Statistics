@@ -1,0 +1,82 @@
+[
+   {
+      "queueId" : 400,
+      "name" : "일반"
+   },
+   {
+      "queueId" : 420,
+      "name" : "솔랭"
+   },
+   {
+      "queueId" : 430,
+      "name" : "일반"
+   },
+   {
+      "queueId" : 440,
+      "name" : "자유 5:5 랭크"
+   },
+   {
+      "queueId" : 450,
+      "name" : "무작위 총력전"
+   },
+   {
+      "queueId" : 700,
+      "name" : "격전"
+   },
+   {
+      "queueId" : 800,
+      "name" : "AI"
+   },
+   {
+      "queueId" : 810,
+      "name" : "AI"
+   },
+   {
+      "queueId" : 820,
+      "name" : "AI"
+   },
+   {
+      "queueId" : 830,
+      "name" : "AI"
+   },
+   {
+      "queueId" : 840,
+      "name" : "AI"
+   },
+   {
+      "queueId" : 850,
+      "name" : "AI"
+   },
+   {
+      "queueId" : 900,
+      "name" : "URF"
+   },
+   {
+      "queueId" : 920,
+      "name" : "포로왕"
+   },
+   {
+      "queueId" : 1020,
+      "name" : "ofa"
+   },
+   {
+      "queueId" : 1300,
+      "name" : "돌격 넥서스"
+   },
+   {
+      "queueId" : 1400,
+      "name" : "궁극기 주문서"
+   },
+   {
+      "queueId" : 2000,
+      "name" : "튜토리얼"
+   },
+   {
+      "queueId" : 2010,
+      "name" : "튜토리얼"
+   },
+   {
+      "queueId" : 2020,
+      "name" : "튜토리얼"
+   }
+]

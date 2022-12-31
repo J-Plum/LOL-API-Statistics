@@ -1,0 +1,89 @@
+:root {
+   /* Color */
+   --color-main: #9dc3e6;
+   --color-light-main: #bdd7ee;
+   --color-dark-main: #4472c4;
+   --color-dark-icon: #284e83;
+   --color-dark-border: #a4b8ff;
+   --color-win : #5383E8;
+   --color-lose : #E84057;
+   --color-redo : #758592;
+   --color-win-none : #B3CDFF;
+   --color-lose-none : #FFBAC3;
+   --color-redo-none : #57646F;
+   --color-background-win : #ECF2FF;
+   --color-background-lose : #FFF1F3;
+   --color-background-redo : #F7F7F9;
+   --color-light-red : #FFF1F3;
+   --color-white: #ffffff;
+   --color-light-white: #d8d8d8;
+   --color-dark-white: #bdbdbd;
+   --color-icon: #bfbfbf;
+   --color-font-light-Gray: #758592;
+
+   --color-bar-win: #D5E3FF;
+   --color-bar-lose: #FFD8D9;
+   --color-bar-redo: #ebeef1;
+
+   --color-font-Gray: #202D37;
+   --color-font-Red: #D31A45;
+
+   --font-roboto : "roboto";
+   --font-NotoSansKR-Regular : "NotoSansKR-Regular";
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body{
+   height: 100%;
+   background-color: var(--color-light-main);
+}
+
+
+#root {
+   height: 975px auto;
+}

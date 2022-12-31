@@ -1,0 +1,20 @@
+*{
+   box-sizing: border-box;
+   margin: 0%;
+   padding: 0;
+}
+
+.img{
+   width: 40px;
+   height: 40px;
+}
+
+.container{
+   margin: 24px 20px;
+}
+
+.container > a > img:hover{
+   transform: scale(1.2);
+   color: yellow;
+   transition: all 200ms ease-in;
+}

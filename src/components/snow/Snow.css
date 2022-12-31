@@ -1,0 +1,31 @@
+.container{
+   background-color: gray;
+   width: 1920px;
+   height: 1080px;
+}
+
+.Snowflake{
+   /* width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background-color: white; */
+   position: absolute;
+   top : -30px;
+   animation : fall 12s linear infinite;
+   z-index: 100000000;
+}
+.Snowflake{
+   pointer-events: none;
+}
+
+.Snowflake > img{
+   width: 12px;
+}
+
+@keyframes fall {
+   from{}
+   to{
+      transform: translateY(95vh) rotate(360deg);
+      opacity: 0;
+   }
+}

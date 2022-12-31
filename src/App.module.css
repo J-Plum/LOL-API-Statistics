@@ -1,0 +1,27 @@
+:root {
+   /* Color */
+   --color-main: #9dc3e6;
+   --color-light-main: #bdd7ee;
+   --color-dark-main: #4472c4;
+   --color-dark-icon: #284e83;
+   --color-dark-border: #a4b8ff;
+   --color-white: #ffffff;
+   --color-light-white: #d8d8d8;
+   --color-dark-white: #bdbdbd;
+   --color-icon: #bfbfbf;
+}
+
+
+.app {
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   background-color: var(--color-light-main);
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   width: 1080px;
+   margin: auto;
+}
