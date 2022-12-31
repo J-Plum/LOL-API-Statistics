@@ -7,10 +7,11 @@
   
   ## ⭐️사용방법⭐️ 
 <img width="948" alt="스크린샷 2022-12-31 오후 8 37 13" src="https://user-images.githubusercontent.com/98649953/210135410-c05a3762-ad3c-46d9-81e5-ba70782b235c.png">   
-리그오브레전드(롤) 소환사명(계정명)을 입력한다.  
+리그오브레전드(롤) 소환사명(계정명)을 입력합니다.
   
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/98649953/210135552-b1dddb82-25a9-4544-89b5-90f6dcacc09c.png">.   
-위와 같이 결과물이 나온다.    
+위와 같이 결과물이 나옵니다.    
+![image](https://user-images.githubusercontent.com/98649953/210136917-e9413775-44e7-4de2-b4ee-b67f59013a9f.png)
 존재하지 않는 소환사명의 경우 에러 페이지가 나옵니다.
     
 #           
