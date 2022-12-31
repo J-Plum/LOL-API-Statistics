@@ -17,18 +17,24 @@
 
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/98649953/210135672-dfb9281e-f01e-4366-b46c-8329103eb090.png">.  
 https://developer.riotgames.com/.   
-위의 사이트에서 사이트 개발에 필요한 API를 신청했습니다.
-
+위의 사이트에서 사이트 개발에 필요한 API를 신청했습니다.  
+  
 <img width="1152" alt="image" src="https://user-images.githubusercontent.com/98649953/210135826-2b674b02-7138-42d5-8b88-74abf11a3c65.png">  
-그리고 제가 필요로 하는 API를 PostMan에 정리를 했습니다.  
+그리고 제가 필요로 하는 API를 PostMan에 정리를 했습니다.
+
+
   
   
   
 <img width="225" alt="image" src="https://user-images.githubusercontent.com/98649953/210136019-214a0704-6258-491a-9be7-37ebab47d542.png">  
   
 저는 이번 프로젝트를 React와 PostCSS를이용해서 개발 했습니다.  
-### ⭐️모듈화⭐️
-모듈화에 매력을 느껴서 사용하게 되었습니다.
+<img width="793" alt="image" src="https://user-images.githubusercontent.com/98649953/210136683-59af912a-9e08-4a03-a360-33dfd66d41c5.png"><img width="387" alt="image" src="https://user-images.githubusercontent.com/98649953/210136691-5f5e7d8d-da59-4cb1-a672-2b3e4c8cf9a0.png"><img width="245" alt="image" src="https://user-images.githubusercontent.com/98649953/210136719-aea3709f-5220-4d9d-9ae3-c063bc59ce60.png">  
+라우터 구성 및 API 정리 후 개발을 진행 했습니다.
+
+
+개발을 하며 PostCSS의 모듈화에 매력을느꼈습니다.
+### ⭐️모듈화⭐️  
 동일한 className을 이용하다보면 각각의 css 파일이라도 style이 중복으로 덮어 씌워지는 경우가 있었고  
 이때문에 복잡하고 세부적인 className을 작성해서 사용 해야 했으니, PostCSS의 모듈화를 사용하면 동일한 className을 작성하더라도  
 오버라이팅을 방지할 수 있다는점이 좋았습니다.
@@ -39,7 +45,7 @@ https://developer.riotgames.com/.
 # 
 ## 🥲추후 개선 사항 및 아쉬운 점🥲
 
-1. 개발 과정중 sass와 scss를 알게되었으며, 다음 개발에는 sass나 scss 을 공부해서 작성하고싶습니다.  
+1. 개발 과정중 sass와 scss를 알게되었으며, 다음 개발에는 sass나 scss 을 공부해서 프로젝트를 진행해 보고 싶습니다. 
  중첩, 변수 선언, 연산자등 다양한 장점을 가지고 있는점에서 흥미가 생겼습니다.   
 2. state관리와 불변성 관리를 하고자 useReducer와 immer를 공부했으니 적용하지 못한점이 아쉬웠습니다.
 3. 기회가 된다면 백엔드도 공부를 해서 구성후 연동을 했으면 좋았을 것 같습니다. 구현하지 못한 부분이 있어서 아쉬웠습니다.
